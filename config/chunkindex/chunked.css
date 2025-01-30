@@ -14,7 +14,7 @@ h6:hover a.headerlink { display: inline; }
 */
 
 div.searchbox {
-  background-color: white;
+  background-color: #121212;
   margin-top: 20px;
 }
 
@@ -60,6 +60,8 @@ div.searchbox label {
 div.searchbox input {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
+  background-color: #333;
+  color: white;
 }
 
 ol#results li a {
@@ -79,3 +81,4 @@ ol#results li a {
 .listingblock:hover .link {
   display: block;
 }
+

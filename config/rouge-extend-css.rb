@@ -22,34 +22,55 @@ class ExtendedRougeSyntaxHighlighter < (Asciidoctor::SyntaxHighlighter.for 'roug
 pre.rouge .cm, pre.rouge .cp, pre.rouge .c1, pre.rouge .cs,
 pre.rouge .c, pre.rouge .ch, pre.rouge .cd, pre.rouge .cpf,
 pre.rouge .gh, pre.rouge .bp {
-  color: #5f5f5f;
+  color: #aaaaaa;
 }
 /* Numberlike overrides */
 pre.rouge .mf, pre.rouge .mh, pre.rouge .il, pre.rouge .mi,
 pre.rouge .mo, pre.rouge .m, pre.rouge .mb, pre.rouge .mx {
-  color: #007f7f;
+  color: #00a8a8;
 }
 /* Namelike overrides */
 pre.rouge .ne, pre.rouge .nf, pre.rouge .fm, pre.rouge .nl {
-  color: #5f0000;
+  color: #ff0f0f;
 }
 /* Other things ANDI warns about - unsure of their purposes */
 pre.rouge .go, pre.rouge .gu {
-  color: #727272;
+  color: #b0b0b0;
 }
 pre.rouge .sr {
-  color: #008512;
+  color: #00ff00;
 }
 pre.rouge .na, pre.rouge .nb {
-  color: #007f7f;
+  color: #00cccc;
 }
 pre.rouge .no, pre.rouge .vc, pre.rouge .vg, pre.rouge .vi,
 pre.rouge .nv, pre.rouge .vm {
-  color: #007f7f;
+  color: #00cccc;
 }
 pre.rouge .w {
-  color: #727272;
+  color: #b0b0b0;
 }
+
+/* Set the code block symbol-like */
+pre.rouge .o {
+  color: #4ae;
+}
+
+/* Set the code block type-like */
+pre.rouge .kt {
+  color: #DA5458;
+}
+
+/* Set the code block keyword-like */
+pre.rouge .k {
+  color: #E35270;
+}
+
+/* Set the code block Vulkan-struct-like */
+pre.rouge .nc {
+  color: #b77028;
+}
+
 </style>)
 
     # super can return either <style> or <link> markup, both work
@@ -57,4 +78,3 @@ pre.rouge .w {
 #{overrides})
   end
 end
-

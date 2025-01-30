@@ -1,3 +1,11 @@
+= Dark Vulkan Docs Info
+
+This fork is a custom dark theme version of the [Vulkan-Docs](https://github.com/KhronosGroup/Vulkan-Docs) repository provided by the Khronos Group.
+
+It will be periodically updated to match the latest changes in the original repository.
+
+_Note_: The `PDF` build output is not dark themed and there are is not current plan to implement it.
+
 // Copyright 2017-2025 The Khronos Group Inc.
 // SPDX-License-Identifier: CC-BY-4.0
 
