@@ -1,6 +1,6 @@
 = Dark Vulkan Docs Info
 
-This fork is a custom dark theme version of the link:{https://github.com/KhronosGroup/Vulkan-Docs}[Vulkan-Docs] repository provided by the Khronos Group.
+This fork is a custom dark theme version of the https://github.com/KhronosGroup/Vulkan-Docs[Vulkan-Docs] repository provided by the Khronos Group.
 
 This repo will be periodically updated to match the latest changes in the original repository.
 
