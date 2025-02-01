@@ -4,7 +4,7 @@ This fork is a custom dark theme version of the [Vulkan-Docs](https://github.com
 
 It will be periodically updated to match the latest changes in the original repository.
 
-_Note_: The `PDF` build output is not dark themed and there are is not current plan to implement it.
+_Note_: The `PDF` build output is not dark themed and there is no current plan to implement it.
 
 == Screenshot
 image:images/DarkThemeScreenshot.png[Dark Theme Screenshot]
