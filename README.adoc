@@ -6,6 +6,9 @@ It will be periodically updated to match the latest changes in the original repo
 
 _Note_: The `PDF` build output is not dark themed and there are is not current plan to implement it.
 
+== Screenshot
+image:images/DarkThemeScreenshot.png[Dark Theme Screenshot]
+
 // Copyright 2017-2025 The Khronos Group Inc.
 // SPDX-License-Identifier: CC-BY-4.0
 
