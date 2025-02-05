@@ -50,7 +50,7 @@ dfn { font-style: italic; }
 hr { -moz-box-sizing: content-box; box-sizing: content-box; height: 0; border-color: #333; }
 
 /** Address styling not present in IE 8/9. */
-mark { background: #ff0; color: #000; }
+mark { background: #2e3322; color: #eee; }
 
 /** Correct font family set oddly in Safari 5 and Chrome. */
 code, kbd, pre, samp { font-family: monospace, serif; font-size: 1em; color: #e0e0e0; }
@@ -736,5 +736,6 @@ li > p > a[id^="VUID-"].link:hover { color: #e0e0e0; }
 /* Set the code block background */
 pre.rouge.highlight { background-color: #181818; }
 
-/* SVGs assume that the background is white and enable transcparancy, so we need to set the background color to something reasonable when svgs are used */
-svg { background-color: #bbb; }
+/* Invert the colors of the SVG since they assume a light color scheme */
+svg { -webkit-filter: invert(100%); filter: invert(100%); }
+.katex svg { -webkit-filter: none; filter: none; }

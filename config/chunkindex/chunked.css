@@ -49,7 +49,7 @@ div.searchbox {
 }
 
 div.searchbox div.results {
-  border: 1px solid black;
+  border: 1px solid lightgrey;
 }
 
 div.searchbox label {
